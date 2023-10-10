@@ -1,73 +1,926 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Github Profile</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-          font-family: Arial, sans-serif;
-          font-size: 16px;
-          color: #333;
-          background-color: #f2f2f2;
-        }
-        h1 {
-          font-size: 36px;
-          text-align: center;
-          margin-top: 50px;
-        }
-        img {
-          display: block;
-          margin: 50px auto;
-          border-radius: 50%;
-          max-width: 200px;
-          height: auto;
-        }
-        p {
-          text-align: center;
-          margin-bottom: 50px;
-        }
-        h2 {
-            text-align: center;
-          font-size: 24px;
-          margin-bottom: 20px;
-        }
-        ul {
-          list-style: none;
-          margin: 0;
-          padding: 0;
-          text-align: center;
-        }
-        li {
-          display: inline-block;
-          margin: 0 20px;
-        }
-        a {
-          color: #333;
-          text-decoration: none;
-        }
-        a:hover {
-          color: #000;
-        }
-      </style>
-    </head>
-  </head>
-  <body>
-    <h1>Shazia Parveen</h1>
-    <img src="https://your-image-url.com" alt="Your profile picture">
-    <p>Hi, I'm Shazia Parveen. I'm a Software Engineer based in the United States of America.</p>
-    <h2>My Projects</h2>
-    <ul>
-      <li><a href="https://project1-url.com">Project 1</a></li>
-      <li><a href="https://project2-url.com">Project 2</a></li>
-      <li><a href="https://project3-url.com">Project 3</a></li>
-    </ul>
-    <h2>Contact Me</h2>
-    <p>You can reach me at shaiz.sit@gmail.com. Follow me on social media:</p>
-    <ul>
-      <li><a href="https://www.facebook.com/shazia.parveen.714/">Facebook</a></li>
-      <li><a href="https://www.linkedin.com/in/shazia-parveen-3079803a/">LinkedIn</a></li>
-      <li><a href="https://github.com/sparveencmu">GitHub</a></li>
-    </ul>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Shazia Parveen</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: DevFolio
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Shazia Parveen</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
+          <li><a class="nav-link scrollto" href="#work">Work Experience</a></li>
+          <li><a class="nav-link scrollto " href="#projects">Projects</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Home Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/home.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <p class="display-6 color-d">Hello, world!</p>
+          <h1 class="hero-title mb-4">I am Shazia Parveen</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Software Developer, Problem Solver, Passionate Learner,Aspiring Software Architect"></span></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- End Home Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center" id="first-column">
+                  <div class="row">
+                    <div>
+                      <div class="about-img">
+                        <img src="assets/img/Shazia_Parveen.jpg" class="img-fluid rounded b-shadow-a" alt="" height="70%" width="70%">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6" id="second-column">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      Hey there! I am <b>Shazia Parveen</b>, and I am thrilled to have you here. As a Master of Software Engineering graduate from Carnegie Mellon University, I have developed a strong foundation in Software Development, Cloud Computing, AI Engineering, and Software Project Management. 
+                    </p>
+                    <p class="lead">
+                      Whether it is enhancing business processes, improving user interactions, or pushing the boundaries of technology, I'm ready to take on the most challenging puzzles.
+                    </p>
+                    <p class="lead">
+                      From crafting insurance solutions to architecting data syndication services and developing a movie recommendation system, my diverse portfolio reflects a commitment to applying Software Engineering principles to real-world challenges. 
+                    </p>
+                    <p class="lead">
+                      In this ever-evolving world, I believe in the power of continuous learning. Each project, each line of code, and every constructive discussion is an opportunity to refine my skills and expand my knowledge base.
+                    </p>
+                    <p class="lead">Please view my detailed resume <a href="Add Link" target="_blank"><b><u>here</u></b></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg skill-mf sect-pt4 route">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Skills
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row skills-content">
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">Python <i class="val">Proficient</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <br>
+            <div class="progress">
+              <span class="skill">Java <i class="val">Proficient</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <br>
+            <div class="progress">
+              <span class="skill">C#<i class="val">Proficient</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <br>
+          </div>
+          <br>
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">Databases(MySQL, PostgreSQL, DataStore, FireStore) <i class="val">Proficient</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <br>
+            <div class="progress">
+              <span class="skill">Web Development <i class="val">Proficient</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <br>
+            <div class="progress">
+              <span class="skill"> Cloud Computing and Services<i class="val">Proficient</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <p class="subtitle-a" style="font-size: 1.1rem; word-spacing: 0.2rem;">
+          <strong>Other Skills:</strong> C, C++, Scala, Golang, Rust, Git, Github, Boto3, Git, Pandas, Flask, PySpark, Pytest, Django, Jenkins, CircleCI, Azure DevOps, Jira, Selenium, Cypress, Jest, Postman, JaCoCo, PITest, Figma, Latex, Code Documentation, Distributed systems, Database design.
+        </p>
+        <br>
+      </div>
+    </section>
+    <!-- End Skills Section -->
+
+    <!-- ======= Counter Section ======= -->
+    <section>
+      <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+        <div class="overlay-mf"></div>
+        <div class="container position-relative">
+          <div class="row">
+            <div class="col-sm-3 col-lg-3">
+              <div class="counter-box counter-box pt-4 pt-md-0">
+                <div class="counter-ico">
+                  <span class="ico-circle"><i class="bi bi-check"></i></span>
+                </div>
+                <div class="counter-num">
+                  <p data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="counter purecounter"></p>
+                  <span class="counter-text">OPEN SOURCE CONTRIBUTIONS</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-lg-3">
+              <div class="counter-box pt-4 pt-md-0">
+                <div class="counter-ico">
+                  <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+                </div>
+                <div class="counter-num">
+                  <p data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="counter purecounter"></p>
+                  <span class="counter-text">YEARS OF EXPERIENCE</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-lg-3">
+              <div class="counter-box pt-4 pt-md-0">
+                <div class="counter-ico">
+                  <span class="ico-circle"><i class="bi bi-people"></i></span>
+                </div>
+                <div class="counter-num">
+                  <p data-purecounter-start="0" data-purecounter-end="86" data-purecounter-duration="1" class="counter purecounter"></p>
+                  <span class="counter-text">PROJECTS COMPLETED</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-lg-3">
+              <div class="counter-box pt-4 pt-md-0">
+                <div class="counter-ico">
+                  <span class="ico-circle"><i class="bi bi-award"></i></span>
+                </div>
+                <div class="counter-num">
+                  <p data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="counter purecounter"></p>
+                  <span class="counter-text">AWARDS WON</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- End Counter Section -->
+   </section>   
+
+    <!-- ======= Work Experience Section ======= -->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-14">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                WORK EXPERIENCE
+              </h3>
+              <p class="subtitle-a">
+                My Journey in Software Development
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="work-box">
+                <div class="work-img">
+                  <img src="assets/img/UPS.png" alt="" class="img-fluid">
+                </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">UPS</h2>
+                    <div class="w-more">
+                      <br>
+                      
+                      <span class="w-ctegory" style="font-size: 13px;">Senior Software Development Engineer</span> 
+                      <br>
+                      <div class="post-date">
+                        <span class="bi bi-calendar-month" style="font-size: 0.8rem;"> Aug 2023 - Current</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4" style="position: relative;">
+                    <div class="w-like w-like-fix">
+                      <button type="button" class="btn btn-outline-primary extra-button" data-bs-toggle="modal" data-bs-target="#UPS" style="font-size: 0.7rem;">
+                        Details
+                      </button>
+                      <!-- Internship Modal 1 -->
+                      <div class="modal fade" id="UPS" tabindex="-1" role="dialog" aria-labelledby="internshipModalLabel-1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h6 class="modal-title" id="internshipModalLabel-1">UPS</h6>
+                              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body" style="font-size: 14px; color: black">
+                              <p>
+                                <strong> Senior Software Development Engineer</strong>
+                                <span class="right-align">Aug 2023 - Current</span>
+                              </p>
+                              <br>
+                              <br>
+                              <ul style="font-size: 13px;">
+                                <li>
+                                  Developed and enhanced core functionalities of route optimization and dispatch integration. This mission-critical application serves an extensive client base of 11 million+ global users
+                                 </li>
+                                 <br>
+                                <li>
+                                  Demonstrated expertise in crafting and maintaining scalable microservices, strategically deployed within a Google Kubernetes Engine cluster environment, leading to a substantial 50% reduction in average delivery times, translating to an estimated annual cost savings of $300 million, and a yearly fuel saving of 10 million gallons
+                                 </li>
+                                 <br>
+                                 <li>
+                                  <b>Skills</b>: C#, Microservices, RestAPI, Apigee, GKE, PubSub, Docker, Jenkins, Azure DevOps, Distributed Systems
+                                 </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="work-box">
+              <a href="assets/img/CMU.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/CMU.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h6 class="w-title">Carnegie Mellon University</h6>
+                    <div class="w-more">
+                      <br>
+                     
+                      <span class="w-ctegory" style="font-size: 13px;">Teaching Assistant</span> 
+                      <br>
+                      <div class="post-date">
+                        <span class="bi bi-calendar-month" style="font-size: 0.8rem;"> Aug 2022 - Aug 2023</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4" style="position: relative;">
+                    <div class="w-like w-like-fix">
+                      <button type="button" class="btn btn-outline-primary extra-button" data-bs-toggle="modal" data-bs-target="#CMU" style="font-size: 0.7rem;">
+                        Details
+                      </button>
+                      <!-- Internship Modal 2 -->
+                      <div class="modal fade" id="CMU" tabindex="-1" role="dialog" aria-labelledby="internshipModalLabel-2" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h6 class="modal-title" id="internshipModalLabel-2">Carnegie Mellon University</h6>
+                              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body" style="font-size: 14px; color: black">
+                              <p>
+                                <strong>Teaching Assistant</strong>
+                                <span class="right-align">Aug 2022 - Aug 2023</span>
+                              </p>
+                              <ul style="font-size: 13px;">
+                                <li>
+                                  Graded assignment papers and conducted office hours to resolve students' doubts for the Requirements for Information Systems (17-626) course under Professor Travis D. Breaux
+                                   </li>
+                                   <br>
+                                <li>
+                                  Graded assignment papers and conducted office hours to resolve students' doubts  for the Business and Marketing Strategy (17-612) course under Professor Jim Berardone
+
+                                   </li>
+                                   <br>
+                                   <li>
+                                    Helped develop course materials and primers for the Business and Marketing Strategy (17-612) course under Professor Jim Berardone
+                                   </li>
+                                   <br>
+                                   <li>
+                                    Conducted experiments to explore the potential application of generative AI in improving students' learning experience within the course Business and Marketing Strategy (17-612)
+                                   </li>
+                                   <br>
+                                   <li>
+                                    <b>Skills</b>: Detail Review, Constructive Feedback, Documentation, Presentation, Marketing Research
+                                   </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-md-3">
+            <div class="work-box">
+              <!-- <a href="assets/img/rolls-royce-logo.png" data-gallery="portfolioGallery" class="portfolio-lightbox"> -->
+                <div class="work-img">
+                  <img src="assets/img/Deloitte.png" alt="" class="img-fluid">
+                </div>
+              <!-- </a> -->
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Deloitte</h2>
+                    <div class="w-more">
+                      <br>
+                      <br>
+                      
+                      <span class="w-ctegory" style="font-size: 13px;">Senior Consultant</span> 
+                      <br>
+                      <div class="post-date">
+                        <span class="bi bi-calendar-month" style="font-size: 0.8rem;"> Mar 2015 - Jul 2021</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4" style="position: relative;">
+                    <div class="w-like w-like-fix">
+                      <button type="button" class="btn btn-outline-primary extra-button" data-bs-toggle="modal" data-bs-target="#Deloitte" style="font-size: 0.7rem;">
+                        Details
+                      </button>
+                      <!-- Internship Modal 1 -->
+                      <div class="modal fade" id="Deloitte" tabindex="-1" role="dialog" aria-labelledby="internshipModalLabel-3" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="internshipModalLabel-3">Rolls Royce</h5>
+                              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body" style="font-size: 14px; color: black">
+                              <p>
+                                <strong> Senior Consultant</strong>
+                                <span class="right-align">Mar 2015 - Jul 2021</span>
+                              </p>
+                              <ul style="font-size: 13px;">
+                                <li>
+                                  Led a team of five to develop and deliver seven of Transamerica's internal tools designed to verify extremely complicated insurance product-specific business logic, enhancing operational efficiency and accuracy                              
+                                </li>
+                                <br>
+                                <li>
+                                  Coordinated with clients and cross-functional teams to transform business requirements into technical solutions and served as a subject matter expert on the product calculation module, ensuring alignment between business goals and technical implementation
+                                </li>
+                                <br>
+                                <li>
+                                  Created REST APIs for the pre-processing of submitted insurance applications, resulting in the verification of underwriting conditions before claim approvals. This initiative led to a remarkable 80% increase in the claim approval rate while significantly reducing manual work
+                                </li>
+                                <br>
+                                <li>
+                                  Designed a scalable pipeline to automate data scraping and testing of Transamerica's admin systems, yielding a 30% reduction in test execution costs and a substantial increase in return on investment (ROI)
+                                </li>
+                                <br>
+                                <li>
+                                  Developed, integrated, and provided support for Aflac Web applications, Enrollment Systems, and Field Force Enrollment Tools (SmartApp, SmartApp Next Generation (SNG), and Aflac Web Enrollment Systems (AWES))
+                                </li>
+                                <br>
+                                <li>
+                                  <b>Skills</b>: Web Development, Windows Application Development, Docker, Containers, Microservices, Load Balancers, Distributed Cache, Agile, Requirement Gathering, C#, Java, Python, AWS, MySQL
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="work-box">
+              <!-- <a href="assets/img/rolls-royce-logo.png" data-gallery="portfolioGallery" class="portfolio-lightbox"> -->
+                <div class="work-img">
+                  <img src="assets/img/Cognizant.png" alt="" class="img-fluid">
+                </div>
+              <!-- </a> -->
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Cognizant</h2>
+                    <div class="w-more">
+                      <br>
+                      <br>
+                      
+                      <span class="w-ctegory" style="font-size: 13px;">Software Developer</span> 
+                      <br>
+                      <div class="post-date">
+                        <span class="bi bi-calendar-month" style="font-size: 0.8rem;"> Jun 2014 - Feb 2015</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4" style="position: relative;">
+                    <div class="w-like w-like-fix">
+                      <button type="button" class="btn btn-outline-primary extra-button" data-bs-toggle="modal" data-bs-target="#Cognizant" style="font-size: 0.7rem;">
+                        Details
+                      </button>
+                      <!-- Internship Modal 1 -->
+                      <div class="modal fade" id="Cognizant" tabindex="-1" role="dialog" aria-labelledby="internshipModalLabel-3" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="internshipModalLabel-3">Rolls Royce</h5>
+                              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body" style="font-size: 14px; color: black">
+                              <p>
+                                <strong> Software Developer</strong>
+                                <span class="right-align">Jun 2014 - Feb 2015</span>
+                              </p>
+                              <ul style="font-size: 13px;">
+                                <li>
+                                  Designed and developed responsive analytics dashboards for data analysis and visualization
+                                  </li>
+                                  <br>
+                                <li>
+                                  Built and integrated application components of a Collaborative Sales Planning software application (iAlign)
+                                  </li>
+                    
+                                  <br>
+                                  <li>
+
+                                    <b>Skills</b>: C#, HTML5, JavaScript, Kendo UI, jQuery, MySQL, Java
+                                  </li>
+                            
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="work-box">
+              <!-- <a href="assets/img/rolls-royce-logo.png" data-gallery="portfolioGallery" class="portfolio-lightbox"> -->
+                <div class="work-img">
+                  <img src="assets/img/TCS.png" alt="" class="img-fluid">
+                </div>
+              <!-- </a> -->
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">TCS</h2>
+                    <div class="w-more">
+                      <br>
+                      <br>
+                      
+                      <span class="w-ctegory" style="font-size: 13px;">Systems Engineer</span> 
+                      <br>
+                      <div class="post-date">
+                        <span class="bi bi-calendar-month" style="font-size: 0.8rem;"> Oct 2011 - May 2014</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4" style="position: relative;">
+                    <div class="w-like w-like-fix">
+                      <button type="button" class="btn btn-outline-primary extra-button" data-bs-toggle="modal" data-bs-target="#TCS" style="font-size: 0.7rem;">
+                        Details
+                      </button>
+                      <!-- Internship Modal 1 -->
+                      <div class="modal fade" id="TCS" tabindex="-1" role="dialog" aria-labelledby="internshipModalLabel-3" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="internshipModalLabel-3">TCS</h5>
+                              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body" style="font-size: 14px; color: black">
+                              <p>
+                                <strong>Systems Engineer</strong>
+                                <span class="right-align">Oct 2011 - May 2014</span>
+                              </p>
+                              <ul style="font-size: 13px;">
+                                <li>
+                                  Collaborated within a 50+ member team to develop and enhance a web application for American Express's customer service solution, resulting in a significant 30% improvement in customer experience                               
+                                </li>
+                                <br>
+                                <li>
+                                  Played an integral role in the ideation team, proposing innovative ideas to enhance the customer experience through responsive UI design
+                                </li>
+                                <br>
+                                <li>
+                                  <b>Skills</b>: Software Development Life Cycle (SDLC) Process, Documentation, .NET Framework, MySQL, C#, Web Services, HTML5, JavaScript, CSS3, XML, SOAPUI, SharePoint, Initiatives
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= Projects Section ======= -->
+    <section id="projects" class="blog-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                PROJECTS
+              </h3>
+              <p class="subtitle-a">
+                A Gallery of my Notable Projects. Please visit my <a href="https://github.com/sparveencmu">Github</a>.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://github.com/sparveencmu/Surefront/blob/main/README.md"><img src="assets/img/web_app.jpg" alt="" class="img-fluid" style="max-width: 100%;"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Development</h6>
+                  </div>
+                </div>
+                <h6 class="card-title"><a href="https://github.com/sparveencmu/Surefront/blob/main/README.md">Data Syndication Service Development and Integration</a></h6>
+                <p class="card-description" style="font-size: 13px; text-align: justify;">
+                  Led a team of five professionals to seamlessly integrate a data syndication service within the Surefront platform, boosting product listings by 30% and increasing monthly sales revenue by 10% for our clients.
+                   <br>
+                  <b>Skills</b>: Python, Django, ReactJS, AWS Lambda, GitHub, CircleCI, Project Management, Risk Management, Quality Assurance, Quality Control, Requirements Gathering, System Design, System Architecture, System Integration, System Testing, System Deployment, System Maintenance
+                  <br>
+                  <br>(in collaboration with Surefront)
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col-md-9"> 
+                  </div>
+                  <div class="col-md-3" style="align-self: center;">
+                    <button type="button" class="btn btn-outline-primary" onclick="window.open('https://github.com/sparveencmu/Surefront/blob/main/README.md')">Code</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://github.com/sparveencmu/Iterative-Processing-with-Spark"><img src="assets/img/Spark.png" alt="" class="img-fluid" style="max-width: 100%;"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Data Analysis</h6>
+                  </div>
+                </div>
+                <h6 class="card-title"><a href="https://github.com/sparveencmu/Iterative-Processing-with-Spark">Iterative Processing with Spark on a Twitter Social Graph Big dataset</a></h6>
+                <p class="card-description" style="font-size: 13px; text-align: justify;">
+
+                  I used Spark for Data Exploratory Analysis on a Twitter Social Network dataset. Then, I implemented and ran the PageRank algorithm on the Twitter dataset to find the most influential users.
+                  
+                  <br>
+                    <b>Skills</b>: Scala, Zeppelin for Apache Spark, Spark on HDInsight, Databricks, Yarn, Spark UI
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <!-- <br>(in collaboration with CMU) -->
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col-md-9"> 
+                  </div>
+                  <div class="col-md-3" style="align-self: center;">
+                    <button type="button" class="btn btn-outline-primary" onclick="window.open('https://github.com/sparveencmu/Iterative-Processing-with-Spark')">Code</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://github.com/sparveencmu/Movie-Recommendation-Service/tree/main"><img src="assets/img/MLinProduction.png" alt="" class="img-fluid" style="max-width: 100%;"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">AI Engineering</h6>
+                  </div>
+                </div>
+                <h6 class="card-title"><a href="https://github.com/sparveencmu/Movie-Recommendation-Service/tree/main">Machine Learning in Production</a></h6>
+                <p class="card-description">
+                  In the course of this project, I undertook the tasks of implementing, evaluating, operating, monitoring, and evolving a recommendation service tailored for a movie streaming platform akin to Netflix.
+                 <br> Data: 1 million Customers, 27K Movies
+                  <br>
+                  <b>Skills</b>: Python, Jupiter Notebook, DVC, Github, Kafka, Minikube, Docker, Load Balancer, FastAPI, MySQL, CircleCI, Grafana, Prometheus
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col-md-9"> 
+                  </div>
+                  <div class="col-md-3" style="align-self: center;">
+                    <button type="button" class="btn btn-outline-primary" onclick="window.open('https://github.com/sparveencmu/Movie-Recommendation-Service/tree/main')">Code</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://github.com/sparveencmu/Exploratory-Data-Analysis"><img src="assets/img/what-is-data-analyst.jpg" alt="" class="img-fluid" style="max-width: 100%;"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Data Analysis</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="https://github.com/sparveencmu/Exploratory-Data-Analysis">Exploratory Data Analysis</a></h3>
+                <p class="card-description">
+                Utilized Python for data manipulation, analysis, and insight extraction from various complex data formats. Conducted database queries and web scraping to compile a comprehensive list of names for machine learning-driven text analysis. Employed Pandas for ETL tasks, data cleaning, integration, and correlation analysis on sports-related Wikipedia data.
+                <br>
+                <b>Skills</b>: Python, Panda, ETL, Web Scraping
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col-md-9"> 
+                  </div>
+                  <div class="col-md-3" style="align-self: center;">
+                    <button type="button" class="btn btn-outline-primary" onclick="window.open('https://github.com/sparveencmu/Exploratory-Data-Analysis')">Code</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://github.com/sparveencmu/Food-Ordering-App"><img src="assets/img/FoodOrderingApp.png" alt="" class="img-fluid" style="max-width: 100%;"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Development</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="https://github.com/sparveencmu/Food-Ordering-App">Food Ordering App</a></h3>
+                <p class="card-description">
+                  Developed a user-friendly food ordering app, uniting React frontend with a Java backend, featuring dynamic menus, order placement, and seamless integration for a smooth customer experience.
+                  <br>
+                  <b>Skills</b>: Java, PostgreSQL, JavaScript, CSS, Html
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col-md-9"> 
+                  </div>
+                  <div class="col-md-3" style="align-self: center;">
+                    <button type="button" class="btn btn-outline-primary" onclick="window.open('https://github.com/sparveencmu/Food-Ordering-App')">Code</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://github.com/sparveencmu/Stream-Processing-with-Kafka-and-Samza"><img src="assets/img/Kafka.jpg" alt="" class="img-fluid" style="max-width: 95%;"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Cloud Computing</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="https://github.com/sparveencmu/Stream-Processing-with-Kafka-and-Samza">Stream Processing with Kafka and Samza</a></h3>
+                <p class="card-description">
+                  In this project, I implemented a Kafka Producer to generate streams of data based on provided trace files. These streams simulated real-time driver location updates and client ride requests, which were processed on a remote AWS Samza cluster. Additionally, I wrote Samza code to consume these streams and implemented an algorithm to match clients with drivers based on their scores and proximity, resulting in the successful creation of a driver matching service.
+                  <b>Skills</b>: EC2, Samza cluster, EMR, Kafka, TDD, Terraform
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col-md-9"> 
+                  </div>
+                  <div class="col-md-3" style="align-self: center;">
+                    <button type="button" class="btn btn-outline-primary" onclick="window.open('https://github.com/sparveencmu/Stream-Processing-with-Kafka-and-Samza')">Code</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Contact Me 
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        I am enthusiastic about the prospect of collaborating, learning, and innovating with like-minded individuals. Whether you share a passion for AI Engineering, software development, or any other related fields, I am eager to connect with you and embark on an inspiring journey together.
+                      <br>
+                      <br>
+                        As a firm believer in the power of technology to transform industries and improve lives, I am committed to staying at the forefront of emerging trends and technologies. My journey as an aspiring Software Architect has been marked by a commitment to continuous learning, a love for elegant and efficient design, and a dedication to pushing the boundaries of what's possible in software.                     
+<br>
+                        <br>
+                        Feel free to explore my portfolio and connect with me to discuss projects, ideas, or simply to share insights. Let's collaborate and build the future of technology together.
+                        <br>
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="bi bi-phone"></span> +1 (412) 608-7635</li>
+                        <li><a href="mailto:sparveen@andrew.cmu.edu"><span class="bi bi-envelope"></span> sparveen@andrew.cmu.edu </a></li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="mailto:sparveen@andrew.cmu.edu"><span class="ico-circle justify-content-center"><i class="bi bi-envelope"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/shazia-parveen-3079803a/"><span class="ico-circle justify-content-center"><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://github.com/sparveencmu"><span class="ico-circle justify-content-center"><i class="bi bi-github"></i></span></a></li>
+                      </ul>
+                    </div>
+                    <br>
+                    <br>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   <!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+            <div class="credits">
+              <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+            -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
