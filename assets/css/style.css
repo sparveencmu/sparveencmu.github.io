@@ -1010,6 +1010,36 @@ a:hover {
   object-fit: cover; /* This will resize the images while preserving aspect ratio */
 }
 
+.custom-ups-logo {
+  object-fit: contain !important;
+  width: 100% !important;
+  transform: scale(1.2);
+}
+
+.custom-surefront-logo {
+  object-fit: contain !important;
+  width: 100% !important;
+  transform: scale(1.5);
+}
+
+.work-box:hover .custom-ups-logo {
+  transform: scale(1.4);
+}
+
+.work-box:hover .custom-surefront-logo {
+  transform: scale(1.7);
+}
+
+.custom-amex-logo {
+  object-fit: contain !important;
+  width: 100% !important;
+  transform: scale(1.35);
+}
+
+.work-box:hover .custom-amex-logo {
+  transform: scale(1.55);
+}
+
 .work-content {
   padding: 2rem 3% 1rem 4%;
 }
