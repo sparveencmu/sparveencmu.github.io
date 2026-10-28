@@ -1627,3 +1627,14 @@ footer .credits a {
   }
 
 
+
+/* Project category headings */
+.project-group-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1e1e1e;
+  margin: 1.5rem 0 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #0078ff;
+  display: inline-block;
+}
